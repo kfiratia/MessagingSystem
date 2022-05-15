@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const contactSchema = new mongoose.Schema({
     sender: { type:mongoose.Schema.Types.ObjectId, ref: "User" },
-    Receiver: { type:mongoose.Schema.Types.ObjectId, ref: "User" },
+    receiver: { type:mongoose.Schema.Types.ObjectId, ref: "User" },
     subject: { type: String },
     text: { type: String },
     created:{type:Date  , default:Date.now},
