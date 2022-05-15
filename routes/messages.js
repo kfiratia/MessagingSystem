@@ -14,7 +14,7 @@ router.post('/:sender',async function(req, res) {
         const token = req.headers["x-access-token"];
         const check = await messages.Verify_username_with_token(token,sender);
         if (check){
-            const {Receiver, subject , text} = req.body;
+            const {receiver, subject , text} = req.body;
             const ans = await messages.create(sender, Receiver,subject, text);
             res.send( ans );
         }
