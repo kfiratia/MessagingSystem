@@ -13,7 +13,7 @@ In order to register to the system we need to enter
 the following url by POST method:  
 https://messaging-system-kfir.herokuapp.com/registered  
 along with "name" and "password" parameters.
-![alt text for screen readers](/assets/registration.jpeg "system registration example").
+![alt text for screen readers](./assets/registration.jpeg "system registration example").
 
 
 ### 2)Login
