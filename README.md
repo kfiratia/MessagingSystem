@@ -11,7 +11,7 @@ read,send and delete messages.
 ### 1)Registration
 In order to register to the system we need to enter  
 the following url by POST method:  
-https://messaging-system-k.herokuapp.com/registere  
+https://messaging-system-k.herokuapp.com/register 
 along with "name" and "password" parameters.
 ![alt text for screen readers](./assets/registration.jpeg "system registration example").
 
