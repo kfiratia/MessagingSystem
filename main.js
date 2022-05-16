@@ -3,7 +3,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 const messages = require('./routes/messages');
 const users = require('./routes/users');
-const login_and_register = require('./routes/login_and_register')
+const login_and_register = require('./routes/login_and_register');
 const app = express();
 
 
@@ -18,7 +18,7 @@ const app = express();
         console.log('MongoDB Connected!!!');
 
     }   catch (err) {
-        console.log(err)
+        console.log(err);
     }
 })();
 
@@ -37,5 +37,5 @@ app.get("/", (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log(`server running on port ${port}...`)
+    console.log(`server running on port ${port}...`);
 })
