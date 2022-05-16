@@ -38,7 +38,8 @@ the following url by POST method:
 https://messaging-system-kfir.herokuapp.com/messages/{name}   
 along with "receiver", "subject" and "text" parameters.    
 also,Token is needed in the request header(key=x-access-token,value={Token})  
-![alt text for screen readers](/assets/create_message.jpeg "create message example").
+![alt text for screen readers](/assets/create_message1.jpeg "create message example").
+![alt text for screen readers](/assets/create_message2.jpeg "create message example").
 
 
 ### 5)Get all messages
