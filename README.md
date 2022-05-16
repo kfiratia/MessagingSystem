@@ -11,7 +11,7 @@ read,send and delete messages.
 ### 1)Registration
 In order to register to the system we need to enter  
 the following url by POST method:  
-https://messaging-system-kfir.herokuapp.com/registered  
+https://messaging-system-kfir.herokuapp.com/registere  
 along with "name" and "password" parameters.
 ![alt text for screen readers](./assets/registration.jpeg "system registration example").
 
